@@ -1,22 +1,25 @@
 //
-//  JZQTableViewCell.m
+//  JZQTableHeaderView.m
 //  JZQTableDemo
 //
 //  Created by das on 16/10/15.
 //  Copyright © 2016年 das. All rights reserved.
 //
 
-#import "JZQTableViewCell.h"
-#import "Header.h"
+#import "JZQTableHeaderView.h"
+#import "JZQTableView.h"
 
-#define kCellTFWidth kViewWidth/self.titleArr.count
+#define kHeaderTFWidth kViewWidth/self.titleArr.count
 
-@implementation JZQTableViewCell
+@implementation JZQTableHeaderView
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
 }
+*/
 
 - (void)drawRect:(CGRect)rect
 {
@@ -24,11 +27,11 @@
     
     for (int i = 0; i<_titleArr.count; i++) {
         
-        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(kCellTFWidth*i, 0, kCellTFWidth, kViewHeight)];
-        label.layer.borderColor = [UIColor blackColor].CGColor;
-        label.layer.borderWidth = 1;
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(self.frame.size.width/self.titleArr.count*i, 0, kHeaderTFWidth, kViewHeight)];
         label.textAlignment = NSTextAlignmentCenter;
         label.backgroundColor = [UIColor clearColor];
+        label.layer.borderColor = [UIColor blackColor].CGColor;
+        label.layer.borderWidth = 1;
         
         label.text = _titleArr[i];
         if (_borderColor) {
@@ -37,25 +40,33 @@
         if (_borderWidth) {
             label.layer.borderWidth = _borderWidth;
         }
-
         if (_fontSize) {
-            label.font = [UIFont systemFontOfSize:_fontSize];
+             label.font = [UIFont systemFontOfSize:_fontSize];
         }
         if (_fontColor) {
             label.textColor = _fontColor;
         }
+       
+        
+        
         [self addSubview:label];
         
     }
- 
     
+
     
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 
-    // Configure the view for the selected state
-}
+
+
+
+
+
+
+
+
+
+
 
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3B8E331DCC652C008E1374 /* JZQTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B8E2E1DCC652C008E1374 /* JZQTableHeaderView.m */; };
+		4B3B8E341DCC652C008E1374 /* JZQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B8E301DCC652C008E1374 /* JZQTableView.m */; };
+		4B3B8E351DCC652C008E1374 /* JZQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B8E321DCC652C008E1374 /* JZQTableViewCell.m */; };
 		4BE6E2791DB200FE000FFAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E2781DB200FE000FFAAE /* main.m */; };
 		4BE6E27C1DB200FE000FFAAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E27B1DB200FE000FFAAE /* AppDelegate.m */; };
 		4BE6E27F1DB200FE000FFAAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E27E1DB200FE000FFAAE /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		4BE6E2871DB200FE000FFAAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE6E2851DB200FE000FFAAE /* LaunchScreen.storyboard */; };
 		4BE6E2921DB200FE000FFAAE /* JZQTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E2911DB200FE000FFAAE /* JZQTableDemoTests.m */; };
 		4BE6E29D1DB200FE000FFAAE /* JZQTableDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E29C1DB200FE000FFAAE /* JZQTableDemoUITests.m */; };
-		4BE6E2AD1DB20149000FFAAE /* JZQTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E2AC1DB20149000FFAAE /* JZQTableView.m */; };
-		4BE6E2B01DB20169000FFAAE /* JZQTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E2AF1DB20169000FFAAE /* JZQTableHeaderView.m */; };
-		4BE6E2B31DB2018E000FFAAE /* JZQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6E2B21DB2018E000FFAAE /* JZQTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B3B8E2D1DCC652C008E1374 /* JZQTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZQTableHeaderView.h; path = JZQTable/JZQTableHeaderView.h; sourceTree = "<group>"; };
+		4B3B8E2E1DCC652C008E1374 /* JZQTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZQTableHeaderView.m; path = JZQTable/JZQTableHeaderView.m; sourceTree = "<group>"; };
+		4B3B8E2F1DCC652C008E1374 /* JZQTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZQTableView.h; path = JZQTable/JZQTableView.h; sourceTree = "<group>"; };
+		4B3B8E301DCC652C008E1374 /* JZQTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZQTableView.m; path = JZQTable/JZQTableView.m; sourceTree = "<group>"; };
+		4B3B8E311DCC652C008E1374 /* JZQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JZQTableViewCell.h; path = JZQTable/JZQTableViewCell.h; sourceTree = "<group>"; };
+		4B3B8E321DCC652C008E1374 /* JZQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JZQTableViewCell.m; path = JZQTable/JZQTableViewCell.m; sourceTree = "<group>"; };
 		4BE6E2741DB200FE000FFAAE /* JZQTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZQTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE6E2781DB200FE000FFAAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BE6E27A1DB200FE000FFAAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,13 +60,6 @@
 		4BE6E2981DB200FE000FFAAE /* JZQTableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZQTableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE6E29C1DB200FE000FFAAE /* JZQTableDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZQTableDemoUITests.m; sourceTree = "<group>"; };
 		4BE6E29E1DB200FE000FFAAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BE6E2AB1DB20149000FFAAE /* JZQTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZQTableView.h; sourceTree = "<group>"; };
-		4BE6E2AC1DB20149000FFAAE /* JZQTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZQTableView.m; sourceTree = "<group>"; };
-		4BE6E2AE1DB20169000FFAAE /* JZQTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZQTableHeaderView.h; sourceTree = "<group>"; };
-		4BE6E2AF1DB20169000FFAAE /* JZQTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZQTableHeaderView.m; sourceTree = "<group>"; };
-		4BE6E2B11DB2018E000FFAAE /* JZQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZQTableViewCell.h; sourceTree = "<group>"; };
-		4BE6E2B21DB2018E000FFAAE /* JZQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZQTableViewCell.m; sourceTree = "<group>"; };
-		4BE6E2B41DB2086F000FFAAE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,13 +153,12 @@
 		4BE6E2AA1DB20107000FFAAE /* JZQTable */ = {
 			isa = PBXGroup;
 			children = (
-				4BE6E2AB1DB20149000FFAAE /* JZQTableView.h */,
-				4BE6E2AC1DB20149000FFAAE /* JZQTableView.m */,
-				4BE6E2AE1DB20169000FFAAE /* JZQTableHeaderView.h */,
-				4BE6E2AF1DB20169000FFAAE /* JZQTableHeaderView.m */,
-				4BE6E2B11DB2018E000FFAAE /* JZQTableViewCell.h */,
-				4BE6E2B21DB2018E000FFAAE /* JZQTableViewCell.m */,
-				4BE6E2B41DB2086F000FFAAE /* Header.h */,
+				4B3B8E2F1DCC652C008E1374 /* JZQTableView.h */,
+				4B3B8E301DCC652C008E1374 /* JZQTableView.m */,
+				4B3B8E2D1DCC652C008E1374 /* JZQTableHeaderView.h */,
+				4B3B8E2E1DCC652C008E1374 /* JZQTableHeaderView.m */,
+				4B3B8E311DCC652C008E1374 /* JZQTableViewCell.h */,
+				4B3B8E321DCC652C008E1374 /* JZQTableViewCell.m */,
 			);
 			name = JZQTable;
 			sourceTree = "<group>";
@@ -298,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3B8E341DCC652C008E1374 /* JZQTableView.m in Sources */,
+				4B3B8E331DCC652C008E1374 /* JZQTableHeaderView.m in Sources */,
 				4BE6E27F1DB200FE000FFAAE /* ViewController.m in Sources */,
 				4BE6E27C1DB200FE000FFAAE /* AppDelegate.m in Sources */,
 				4BE6E2791DB200FE000FFAAE /* main.m in Sources */,
-				4BE6E2AD1DB20149000FFAAE /* JZQTableView.m in Sources */,
-				4BE6E2B01DB20169000FFAAE /* JZQTableHeaderView.m in Sources */,
-				4BE6E2B31DB2018E000FFAAE /* JZQTableViewCell.m in Sources */,
+				4B3B8E351DCC652C008E1374 /* JZQTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +533,7 @@
 				4BE6E2A31DB200FE000FFAAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BE6E2A41DB200FE000FFAAE /* Build configuration list for PBXNativeTarget "JZQTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +542,7 @@
 				4BE6E2A61DB200FE000FFAAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BE6E2A71DB200FE000FFAAE /* Build configuration list for PBXNativeTarget "JZQTableDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +551,7 @@
 				4BE6E2A91DB200FE000FFAAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

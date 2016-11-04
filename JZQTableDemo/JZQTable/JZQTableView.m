@@ -9,15 +9,19 @@
 #import "JZQTableView.h"
 #import "JZQTableViewCell.h"
 #import "JZQTableHeaderView.h"
-#import "Header.h"
+
 
 @interface JZQTableView ()
 
-@property (strong, nonatomic) UITableView *tableView;
+
 
 @end
 
+
 @implementation JZQTableView
+
+
+
 
 - (void)awakeFromNib
 {

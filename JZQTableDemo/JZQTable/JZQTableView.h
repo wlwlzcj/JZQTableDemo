@@ -11,7 +11,12 @@
 #define kCellReuseIdentifier @"Cell"
 #define KHeaderReuseIdentifier @"Header"
 
+#define kViewWidth self.frame.size.width
+#define kViewHeight self.frame.size.height
+
 @interface JZQTableView : UIView<UITableViewDelegate,UITableViewDataSource>
+
+@property (strong, nonatomic) UITableView *tableView;
 
 /*        表头内容设置           */
 //表头内容数组  必须设置

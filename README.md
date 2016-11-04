@@ -1,6 +1,9 @@
 # JZQTableDemo
 自己用的表格绘制
 
+xcode8 使用会使Label超出view范围
+解决办法 http://www.jianshu.com/p/22b7abaeac56
+
 
 使用时先import “JZQTable”
 设置表头的 headerTitleArr
